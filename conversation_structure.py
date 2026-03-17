@@ -35,6 +35,10 @@ def chat(user_input):
     return assistant_message
 
 # Test it
+print("############################# reply - 1 #############################")
 print(chat("My Kubernetes pod is in CrashLoopBackOff"))
-print(chat("What logs should I check first?"))  
-# Notice it remembers context from previous message
+print("############################# reply - 2 #############################")
+print(chat("What logs should I check first?"))
+print("############################# reply - 3 #############################")
+print(chat("how are you?"))
+# Notice it remembers context from previous message. But, context can be changed in same chat.
