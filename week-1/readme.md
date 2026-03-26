@@ -1,5 +1,8 @@
 # Learning AI for DevOps
 
+## Week - 1
+### Prompt Engineering + Groq Mastery
+
 ## Files
 
 ### first_call.py
